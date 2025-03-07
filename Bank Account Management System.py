@@ -1,7 +1,7 @@
 #Bank Account Management System
 
 class Bank:
-    bname:'SBI'
+    bname='SBI'
     def __init__(self,name,accno,ifsc,phno,balance):
         self.name=name
         self.accno=accno
