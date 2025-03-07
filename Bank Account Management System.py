@@ -22,10 +22,10 @@ class Bank:
 
     def withdraw(self,amount):
         if amount>self.balance:
-            print(f'Insufficient balance your current balance is {self.balance}')
+            print(f'Insufficient balance Available balance is {self.balance}')
         else:
             self.balance=self.sub(self.balance,amount)
-            print(f'{amount} debited your balance is {self.balance}')
+            print(f'{amount} debited your New balance is {self.balance}')
 
     @staticmethod
     def add(a,b):
