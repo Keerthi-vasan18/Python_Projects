@@ -10,11 +10,11 @@ class Bank:
         self.balance=balance
 
     def display(self):
-        print(f'name : {self.name}')
-        print(f'accno : {self.accno}')
+        print(f'Account Holder : {self.name}')
+        print(f'Account No : {self.accno}')
         print(f'ifsc : {self.ifsc}')
-        print(f'phno : {self.phno}')
-        print(f'balance : {self.balance}')
+        print(f'Phone No : {self.phno}')
+        print(f'Balance : {self.balance}')
 
     def deposit(self,amount):
         self.balance=self.add(self.balance,amount)
