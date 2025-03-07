@@ -18,7 +18,7 @@ class Bank:
 
     def deposit(self,amount):
         self.balance=self.add(self.balance,amount)
-        print(f'{amount} credited your current balance is {self.balance}')
+        print(f'{amount} credited your New balance is {self.balance}')
 
     def withdraw(self,amount):
         if amount>self.balance:
